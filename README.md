@@ -96,6 +96,14 @@ Run all following commands:
     php bin/magento setup:upgrade
     php bin/magento setup:static-content:deploy –f  
     php bin/magento deploy:mode:set developer 
+    php bin/magento module:disable Magento_TwoFactorAuth
     php bin/magento cache:clean 
     php bin/magento cache:flush
 ```
+
+#### Step 6:
+Go to megento folder and then 
+``` /app/etc/di.xml ```
+Open the file and search ``` Copy ``` and just one line over there is
+``` Symlink``` So replace ``` Symlink``` to  ``` Copy ```  then
+all icons and image will be not showing any problem.
