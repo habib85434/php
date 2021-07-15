@@ -107,3 +107,4 @@ Go to megento folder and then
 Open the file and search ``` Copy ``` and just one line over there is
 ``` Symlink``` So replace ``` Symlink``` to  ``` Copy ```  then
 all icons and image will be not showing any problem.
+
