@@ -1,3 +1,4 @@
+# Static Method
 ### How to define static property or method?
 ```
     static class Member
