@@ -99,6 +99,10 @@ Run all following commands:
     php bin/magento module:disable Magento_TwoFactorAuth
     php bin/magento cache:clean 
     php bin/magento cache:flush
+    
+    Config web services
+    php bin/magento cache:clean config_webservice
+
 ```
 
 #### Step 6:
@@ -107,4 +111,14 @@ Go to megento folder and then
 Open the file and search ``` Copy ``` and just one line over there is
 ``` Symlink``` So replace ``` Symlink``` to  ``` Copy ```  then
 all icons and image will be not showing any problem.
+
+### PhpStorm
+
+![alt text](phpStormMagentoPlagin.png)
+![alt text](phpStormMagentoPlagin%202.png)
+<br />
+If getting problem with namespace then make code folder as root 
+![alt text](phpStormNamespace.png)
+
+
 
